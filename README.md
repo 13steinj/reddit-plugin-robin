@@ -37,7 +37,7 @@ sudo cp ~/src/robin/upstart/* /etc/init/
 Then, enable the consumers:
 
 ```bash
-cd ~/consumer-counts.d
+cd ~/consumer-count.d
 echo 1 > robin_presence_q
 echo 1 > robin_waitinglist_q
 echo 1 > robin_subreddit_maker_q
